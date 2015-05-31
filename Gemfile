@@ -13,12 +13,10 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'aws-sdk', '~> 2.0.41'
 gem 'bootstrap-sass', '~> 3.3.4'
-
+gem 'aws-sdk', '~> 1.61.0'
+ 
 gem "paperclip", "~> 4.2"
- gem "dotenv-rails" ,group: :development
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
