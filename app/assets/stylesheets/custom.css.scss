@@ -49,7 +49,18 @@ body{
 }   
 
 
-
+.jumbotron {
+	background-image: url('https://s3.amazonaws.com/sharemykloset/listings/closet8.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  padding:200px 0 140px 0;
+  margin-bottom:70px;
+  h1,h2 {
+  color: #FFFFFF;
+  font-family: Helvetica Neue, Helvetica Neue, Arial, sans-serif;
+  }
+}
 
 
 
